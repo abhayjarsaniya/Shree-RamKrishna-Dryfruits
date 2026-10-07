@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Great_Vibes, Outfit } from "next/font/google";
-import { absoluteUrl, BRAND, BRAND_FULL, siteUrl, STORE_ADDRESS, STORE_RATING } from "@/data/site";
+import { absoluteUrl, BRAND, BRAND_FULL, siteUrl, STORE_ADDRESS, STORE_RATING, WHATSAPP_DISPLAY } from "@/data/site";
 import { CartDrawer, MobileDock, NoticeToast } from "@/components/cart-drawer";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
@@ -8,7 +8,7 @@ import { InquiryForm } from "@/components/inquiry-form";
 import { MobileDrawer } from "@/components/mobile-drawer";
 import { SearchDialog } from "@/components/search-dialog";
 import { StoreProvider } from "@/components/store";
-// Raj Dryfruits official website layout
+// Shree RamKrishna Dryfruits official website layout
 import "./globals.css";
 
 const serif = Cormorant_Garamond({
@@ -36,14 +36,14 @@ const script = Great_Vibes({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${BRAND} — Premium Dry Fruits, Chocolates, Coffee & Tea | Ahmedabad`,
+    default: `${BRAND} — Premium Dry Fruits, Fresh Nuts & Celebration Hampers | Ahmedabad`,
     template: `%s · ${BRAND}`,
   },
   description:
-    "Premium dry fruits, chocolates, coffee, tea and celebration boxes from Raj Dryfruits & Mukhwas, Ahmedabad. Choose your favourites and send a WhatsApp inquiry.",
+    "Premium dry fruits, fresh nuts, artisanal chocolates, coffee, tea and festive celebration boxes from Shree RamKrishna Dryfruits, Kalupur, Ahmedabad. Choose your favourites and send a WhatsApp inquiry.",
   openGraph: {
     title: `${BRAND_FULL} · Ahmedabad`,
-    description: "Premium dry fruits, chocolates, coffee, tea and celebration boxes — ordered through a simple WhatsApp inquiry.",
+    description: "Premium dry fruits, fresh nuts, chocolates and festive celebration boxes — ordered through a simple WhatsApp inquiry.",
     images: ["/images/hero-composition.jpg"],
     locale: "en_IN",
     type: "website",
@@ -63,9 +63,9 @@ const structuredData = {
       "@type": "Store",
       name: BRAND_FULL,
       url: absoluteUrl("/"),
-      telephone: "+91-9712698899",
+      telephone: WHATSAPP_DISPLAY,
       image: absoluteUrl("/images/hero-composition.jpg"),
-      description: "Premium dry fruits, chocolates, coffee, tea and celebration boxes. Orders are placed as WhatsApp inquiries.",
+      description: "Premium dry fruits, fresh nuts, artisanal chocolates, coffee, tea and festive celebration boxes. Orders are placed as WhatsApp inquiries.",
       address: {
         "@type": "PostalAddress",
         streetAddress: STORE_ADDRESS.line1 + ", " + STORE_ADDRESS.line2,

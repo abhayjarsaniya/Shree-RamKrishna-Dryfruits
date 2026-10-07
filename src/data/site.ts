@@ -1,24 +1,26 @@
-export const BRAND = "Raj Dryfruits";
-export const BRAND_FULL = "Raj Dryfruits & Mukhwas";
-export const STORE_NAME = "Raj Dryfruits & Mukhwas";
+export const BRAND = "Shree RamKrishna Dryfruits";
+export const BRAND_SHORT = "Shree RamKrishna";
+export const BRAND_SUBTITLE = "DRYFRUITS";
+export const BRAND_FULL = "Shree RamKrishna Dryfruits";
+export const STORE_NAME = "Shree RamKrishna Dryfruits";
 
 export const STORE_ADDRESS = {
-  line1: "Radha Apartments, Shop No. 4",
-  line2: "100 Feet Anand Nagar Road, Beside Natraj Medical",
-  area: "Jodhpur Village",
+  line1: "132, Sindhi Commercial Market",
+  line2: "Chokha Bazaar, Kalupur",
+  area: "Kalupur",
   city: "Ahmedabad",
   state: "Gujarat",
-  pincode: "380015",
-  full: "Radha Apartments, Shop No. 4, 100 Feet Anand Nagar Road, beside Natraj Medical, Jodhpur Village, Ahmedabad, Gujarat 380015",
+  pincode: "380002",
+  full: "132, Sindhi Commercial Market, Chokha Bazaar, Kalupur, Ahmedabad, Gujarat 380002",
 };
 
 export const STORE_RATING = "4.6 ★";
 
-export const WHATSAPP_DISPLAY = "+91 9712698899";
-export const WHATSAPP_E164 = "919712698899";
+export const WHATSAPP_DISPLAY = "+91 9313236081";
+export const WHATSAPP_E164 = "919313236081";
 
 export const GOOGLE_MAPS_URL =
-  "https://www.google.com/maps/search/?api=1&query=Raj+Dryfruits+%26+Mukhwas,+Radha+Apartments,+Shop+No.+4,+100+Feet+Anand+Nagar+Road,+beside+Natraj+Medical,+Jodhpur+Village,+Ahmedabad,+Gujarat+380015";
+  "https://share.google/mOS7428TP2UBmTfnk";
 
 export const MAX_QTY_PER_PRODUCT = 10;
 export const MAX_QTY_MESSAGE = "Maximum quantity reached (10 per product).";

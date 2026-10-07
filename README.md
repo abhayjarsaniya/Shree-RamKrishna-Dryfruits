@@ -1,19 +1,20 @@
-# Raj Dryfruits & Mukhwas (Ahmedabad)
+# Shree RamKrishna Dryfruits (Ahmedabad)
 
-Premium digital storefront and WhatsApp inquiry platform for **Raj Dryfruits & Mukhwas**, Ahmedabad.
+Premium digital storefront and WhatsApp inquiry platform for **Shree RamKrishna Dryfruits**, Ahmedabad.
 
 ## Store Information
-- **Brand**: Raj Dryfruits & Mukhwas
-- **Store Location**: Radha Apartments, Shop No. 4, 100 Feet Anand Nagar Road, Beside Natraj Medical, Jodhpur Village, Ahmedabad, Gujarat 380015
-- **Phone / WhatsApp**: +91 9712698899
+- **Brand**: Shree RamKrishna Dryfruits
+- **Store Location**: 132, Sindhi Commercial Market, Chokha Bazaar, Kalupur, Ahmedabad, Gujarat 380002
+- **Phone / WhatsApp**: +91 9313236081
 - **Google Rating**: 4.6 ★
+- **Google Location**: [Google Maps / Share Link](https://share.google/mOS7428TP2UBmTfnk)
 
 ---
 
 ## Features & Highlights
 
 ### 1. Modern E-Commerce Catalog & Discovery
-- **Rich Product Categories**: Dry Fruits, Handcrafted Chocolates, Artisanal Coffee & Fine Teas, Customer Favourites / Best Sellers, and Curated Celebration Gift Boxes / Bundles.
+- **Rich Product Categories**: Premium Dry Fruits, Fresh Nuts & Seeds, Handcrafted Chocolates, Artisanal Coffee & Fine Teas, Customer Favourites / Best Sellers, and Curated Celebration Gift Boxes / Bundles.
 - **Alternating Sections**: Full-width luxury alternating section backgrounds (White `#FFFFFF` and Warm Neutral `#FAF8F6`) with compact mobile vertical rhythm.
 - **Mobile Swipeable Carousels**: 100% native momentum horizontal swipe on homepage collections without arrow clutter.
 - **Collection Pages (2-Column Grid)**: Dedicated product listing pages (`/dry-fruits`, `/chocolates`, `/bundles`, etc.) render a clean, vertical 2-column mobile grid with product descriptions visible.
@@ -32,7 +33,7 @@ Premium digital storefront and WhatsApp inquiry platform for **Raj Dryfruits & M
 
 ## Tech Stack
 - **Framework**: Next.js 15 (App Router, Static Site Generation)
-- **UI & Styling**: React 19, Tailwind CSS, Lucide / Custom SVG Glyphs
+- **UI & Styling**: React 19, Tailwind CSS, Custom SVG Glyphs
 - **Typography**: Cormorant Garamond (Serif), Outfit (Sans), Great Vibes (Script)
 - **Deployment**: Static output optimized for Vercel, Node.js, or any static host
 
@@ -60,4 +61,4 @@ npm run start
 ---
 
 ## License
-Private property of Raj Dryfruits & Mukhwas, Ahmedabad. All rights reserved.
+Private property of Shree RamKrishna Dryfruits, Ahmedabad. All rights reserved.
